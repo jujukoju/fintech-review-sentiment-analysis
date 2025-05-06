@@ -1,0 +1,5 @@
+pandas
+wordcloud
+matplotlib
+textblob
+google_play_scraper
