@@ -15,5 +15,5 @@ result, continuation_token = reviews(
 data = pd.DataFrame(result)
 data = data[['content', 'score']]
 
-data.to_csv('bamboo_reviewsss.csv', index=False)
+data.to_csv('bamboo_reviewed.csv', index=False)
 print('Reviews saved!')
