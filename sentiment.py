@@ -4,7 +4,7 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
 try:
-    data = pd.read_csv('bamboo_reviewsss.csv')
+    data = pd.read_csv('bamboo_reviewed.csv')
 except FileNotFoundError:
     print("Omo! File not found!")
 
